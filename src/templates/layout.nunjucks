@@ -1,4 +1,4 @@
-
+{% set pageID = pageID | default('') %}
 
 <!doctype html>
 <html class="no-js">
@@ -34,51 +34,17 @@
 
     <script src="assets/components/modernizr/modernizr.js"></script>
   </head>
-  <body id="home">
+  <body id="{{ pageID }}">
   
     <div class="site-container">
 
 
-      
-
-
-
-
-<header class="header" role="banner">
-	<div class="logo">
-		<a href="/">
-			<img src="assets/img/logo.png" alt="Logo">
-		</a>
-	</div>
-	<nav id="site-navigation">
-		<button class="menu-toggle">&#9776; Menu</button>
-		<ul class="nav-items">
-			
-				
-			
-				
-					<li>
-						<a href="/#" class=" ">
-							Example Nav Item
-						</a>
-					</li>
-				
-			
-
-		</ul>
-	</nav>
-</header>
-
+      {% include "partials/header.nunjucks" %}
 
 
       <main class="main" role="main">
-        
-<section id="mission-header" class="main-heading">
-  <h1>Hello!</h1>
-</section>
-
-
-
+        {% block content %}
+        {% endblock %}
       </main>
 
       <aside class="sidebar" role="complementary">

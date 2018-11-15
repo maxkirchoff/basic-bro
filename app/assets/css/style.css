@@ -414,6 +414,13 @@ textarea {
   color: #fff;
   text-shadow: none; }
 
+.site-container {
+  max-width: 1400px;
+  position: absolute;
+  top: 20px;
+  left: 5%;
+  right: 5%; }
+
 /* Example media query selectors */
 @media print {
   * {
@@ -453,3 +460,114 @@ textarea {
   h2,
   h3 {
     page-break-after: avoid; } }
+
+.header {
+  top: 20px;
+  z-index: 99;
+  position: absolute;
+  left: 0;
+  right: 0; }
+  .header .logo {
+    display: block;
+    float: left;
+    width: 30px; }
+    .header .logo img {
+      width: 100%;
+      height: auto; }
+  .header nav {
+    display: block;
+    width: 70%;
+    float: right;
+    margin-top: 20px; }
+    @media only screen and (min-width: 1024px) {
+      .header nav {
+        margin-top: 10px; } }
+    .header nav button.menu-toggle {
+      color: #000;
+      display: block;
+      position: absolute;
+      padding: 0 0 10px 20px;
+      text-transform: uppercase;
+      right: 0;
+      top: 0;
+      z-index: 999;
+      outline: none;
+      background: none;
+      cursor: pointer;
+      border: 0; }
+      @media only screen and (min-width: 1024px) {
+        .header nav button.menu-toggle {
+          display: none; } }
+      .header nav button.menu-toggle.menu-active {
+        color: #fff; }
+    .header nav ul {
+      display: none;
+      list-style: none;
+      line-height: 1;
+      margin: 0;
+      padding: 50px 8.33% 0;
+      position: fixed;
+      background: #ea6d23;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+      @media only screen and (min-width: 1024px) {
+        .header nav ul {
+          padding: 0;
+          display: block;
+          margin-left: 3vw;
+          float: left;
+          position: relative;
+          top: auto;
+          left: auto;
+          right: auto;
+          bottom: auto;
+          background: transparent;
+          width: 100%; } }
+      @media only screen and (min-width: 1280px) {
+        .header nav ul {
+          margin-left: 35px; } }
+      .header nav ul.active {
+        display: block;
+        overflow: auto; }
+      .header nav ul li {
+        display: block;
+        margin: 6vh 0; }
+        @media only screen and (min-width: 1024px) {
+          .header nav ul li {
+            vertical-align: top;
+            margin: 5px 1.3vw;
+            display: block;
+            float: right; } }
+        @media only screen and (min-width: 1280px) {
+          .header nav ul li {
+            margin: 10px 28px; } }
+        .header nav ul li a {
+          text-decoration: none;
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 7vw;
+          color: #fff; }
+          @media only screen and (min-width: 1024px) {
+            .header nav ul li a {
+              font-size: 1vw;
+              color: #000; } }
+          @media only screen and (min-width: 1280px) {
+            .header nav ul li a {
+              font-size: 14px; } }
+          .header nav ul li a.button {
+            padding: 10px;
+            background: #ea6d23;
+            color: #fff; }
+            @media only screen and (max-width: 1023px) {
+              .header nav ul li a.button {
+                padding: 0;
+                background: transparent; } }
+          @media only screen and (min-width: 1024px) {
+            .header nav ul li a.active {
+              border-bottom: 2px solid #ea6d23; } }
+
+.main {
+  position: absolute;
+  top: 60px; }
