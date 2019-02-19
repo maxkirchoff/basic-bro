@@ -4,7 +4,7 @@
  * https://github.com/LamaSix/basic-bro
  * @author Max Kirchoff
  * @version 1.0.0
- * Copyright 2018. MIT licensed.
+ * Copyright 2019. MIT licensed.
  */
 (function ($, window, document, undefined) {
 
