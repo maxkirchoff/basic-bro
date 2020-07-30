@@ -1,10 +1,10 @@
 /*!
- * basic-bro
- * Just your basic HTML/SASS/JS bro.
- * https://github.com/LamaSix/basic-bro
+ * lamasix.com
+ * Website for the creative agency, LAMA SIX
+ * https://github.com/LamaSix/lamasix.com
  * @author Max Kirchoff
  * @version 1.0.0
- * Copyright 2019. MIT licensed.
+ * Copyright 2020. MIT licensed.
  */
 (function ($, window, document, undefined) {
 
