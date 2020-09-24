@@ -1,14 +1,22 @@
 {
-  "name": "Basic Bro",
-  "title": "",
-  "author": "Max Kirchoff",
-  "url": "",
+  "name": "basic-bro",
   "version": "1.0.0",
-  "license": "MIT",
+  "description": "Copied from [FastShell](https://github.com/HosseinKarami/fastshell) which was inspired by [FireShell](http://getfireshell.com)",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/LamaSix/basic-bro.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LamaSix/basic-bro/issues"
+  },
+  "homepage": "https://github.com/LamaSix/basic-bro#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
@@ -25,6 +33,5 @@
     "gulp-util": "^3.0.8",
     "jshint": "^2.10.3",
     "node-sass": "^4.13.0"
-  },
-  "dependencies": {}
+  }
 }

@@ -1,10 +1,10 @@
 /*!
- * lamasix.com
- * Website for the creative agency, LAMA SIX
- * https://github.com/LamaSix/lamasix.com
- * @author Max Kirchoff
+ * basic-bro
+ * 
+ * 
+ * @author 
  * @version 1.0.0
- * Copyright 2020. MIT licensed.
+ * Copyright 2020. ISC licensed.
  */
 (function ($, window, document, undefined) {
 
